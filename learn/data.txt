@@ -1,0 +1,56 @@
+{
+	"id": "0001",
+	"type": "donut",
+	"name": "Cake",
+	"ppu": 0.55,
+	"batters":
+		{
+			"batter":
+				[
+					{ "id": "1001", "type": "Regular" },
+					{ "id": "1002", "type": "Chocolate" },
+					{ "id": "1003", "type": "Blueberry" },
+					{ "id": "1004", "type": "Devil's Food" }
+				]
+		},
+	"topping":
+		[
+			{ "id": "5001", "type": "None" },
+			{ "id": "5002", "type": "Glazed" },
+			{ "id": "5005", "type": "Sugar" },
+			{ "id": "5007", "type": "Powdered Sugar" },
+			{ "id": "5006", "type": "Chocolate with Sprinkles" },
+			{ "id": "5003", "type": "Chocolate" },
+			{ "id": "5004", "type": "Maple" }
+		]
+}
+
+
+Introduction:
+ Introduction:
+ >> Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications.
+It uses progressive JavaScript, is built with and fully supports TypeScript (yet still enables 
+developers to code in pure JavaScript) and combines elements of OOP (Object Oriented Programming), 
+FP (Functional Programming), and FRP (Functional Reactive Programming).
+
+
+
+Created on: 1682962161811
+Written by Farshad
+Created on: 1683026825402
+Written by Farshad
+
+
+What is promise in Node.JS?
+
+
+A Node. js Promise is a placeholder for a value that will be available in the future, allowing us to handle the result of an asynchronous task once it has completed or encountered an error. Promises make writing asynchronous code easier. They're an improvement on the callback pattern and very popular in Node. js.
+
+
+
+What is promise in Node.JS?
+
+
+A Node. js Promise is a placeholder for a value that will be available in the future, allowing us to handle the result of an asynchronous task once it has completed or encountered an error. Promises make writing asynchronous code easier. They're an improvement on the callback pattern and very popular in Node. js.
+
+
