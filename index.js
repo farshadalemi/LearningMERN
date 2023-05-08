@@ -6,7 +6,6 @@ const url = require("url");
 const data = fs.readFileSync(`${__dirname}/data.json`, "utf-8");
 const dataObject = JSON.parse(data);
 
-
 const server = http.createServer((req, res) => {
   console.log(req.url);
   const pathName = req.url;
