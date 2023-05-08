@@ -13,7 +13,7 @@
       href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png"
     />
 
-    <title>NODE FARM</title>
+    <title>Ticket Foroshi</title>
 
     <style>
       *,
@@ -35,7 +35,7 @@
         font-family: "Nunito Sans", sans-serif;
         color: #555;
         min-height: 100vh;
-        background: linear-gradient(to bottom right, #9be15d, #00e3ae);
+        background: linear-gradient(to bottom right, #717171, #000000);
       }
 
       h1 {
@@ -52,13 +52,36 @@
         content: "";
         display: block;
         height: 65%;
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background: linear-gradient(to bottom, #000000, #4d4d4d);
+        opacity: 0.3;
+        z-index: -1;
+        transform: skewY(360deg) translate(-50%, -50%);
+      }
+      h2 {
+        font-family: "Megrim", sans-serif;
+        font-size: 3rem;
+        color: white;
+        transform: skewY(0deg);
+        text-align: center;
+        position: relative;
+        word-spacing: 6px;
+      }
+
+      h2::before {
+        content: "";
+        display: block;
+        height: 65%;
         width: 49%;
         position: absolute;
-        top: 105%;
+        top: 50%;
         left: 50%;
         background: linear-gradient(to bottom, #9be15d, #00e3ae);
-        opacity: 0.8;
-        z-index: -1;
+        opacity: 0;
+        z-index: 0;
         transform: skewY(370deg) translate(-50%, -50%);
       }
 
@@ -89,7 +112,7 @@
       }
 
       .card__title-box {
-        background: linear-gradient(to bottom, #9be15d, #00e3ae);
+        background: linear-gradient(to bottom, #0e0a0b, #e9e9e9);
         margin-right: auto;
         display: flex;
         align-items: center;
@@ -128,8 +151,8 @@
       .card__detail--organic {
         font-weight: 900;
         text-transform: uppercase;
-        font-size: 1.9rem;
-        background-image: linear-gradient(to right, #9be15d, #00e3ae);
+        font-size: 3.9rem;
+        background-image: linear-gradient(to right, #e2284b, #d9e809);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -138,13 +161,14 @@
       .card__detail--price {
         font-weight: 900;
         font-size: 1.9rem;
+        
       }
 
       .card__link:link,
       .card__link:visited {
         flex: 0 0 auto;
-        background-color: #79e17b;
-        color: white;
+        background-color: #656565;
+        color: rgb(37, 37, 37);
         font-size: 1.6rem;
         font-weight: 900;
         text-transform: uppercase;
@@ -159,7 +183,7 @@
 
       .card__link:hover,
       .card__link:active {
-        background-color: #9be15d;
+        background-color: #000000;
       }
 
       .card__link span {
@@ -189,124 +213,138 @@
 
   <body>
     <div class="container">
-      <h1>🌽 Node Farm 🥦</h1>
+      <h1>🎫 Ticket Froshi 🎟️</h1>
+      <br>
+      <br>
+      <br>
+      <h2>What Movie Genre You Prefer to Watch?</h2>
 
       <div class="cards-container">
         <figure class="card">
-          <div class="card__emoji">🥑🥑</div>
+          <div class="card__emoji">🩸⚔️</div>
 
           <div class="card__title-box">
-            <h2 class="card__title">Fresh Avocado</h2>
+            <h2 class="card__title">Action</h2>
           </div>
 
           <div class="card__details">
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--organic">Organic!</h6>
+              <h6 class="card__detail card__detail--organic">+12</h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail">4 🥑 per 📦</h6>
+              <h6 class="card__detail">🧨 +3m options</h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--price">6.50€</h6>
+              <h6 class="card__detail card__detail--price">$6/Movie</h6>
             </div>
           </div>
 
           <a class="card__link" href="#">
-            <span>Detail <i class="emoji-right">👉</i></span>
+            <span>Let's Watch<i class="emoji-right">👉</i></span>
           </a>
         </figure>
 
         <figure class="card">
-          <div class="card__emoji">🧀🧀</div>
+          <div class="card__emoji">⚰️🧟</div>
           <div class="card__title-box">
-            <h2 class="card__title">Goat and Sheep Cheese</h2>
+            <h2 class="card__title">Horror</h2>
           </div>
 
           <div class="card__details">
             <div class="card__detail-box">
-              <h6 class="card__detail">250g per 📦</h6>
+              <h6 class="card__detail card__detail--organic">+21</h6>
+            </div>
+
+          <div class="card__details">
+            <div class="card__detail-box">
+              <h6 class="card__detail">🧛 +250k options</h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--price">5.00€</h6>
+              <h6 class="card__detail card__detail--price">$7/Movie</h6>
             </div>
           </div>
 
           <a class="card__link" href="#">
-            <span>Detail <i class="emoji-right">👉</i></span>
+            <span>Let's Watch<i class="emoji-right">👉</i></span>
           </a>
         </figure>
 
         <figure class="card">
-          <div class="card__emoji">🥦🥦</div>
+          <div class="card__emoji">💥🤠</div>
           <div class="card__title-box">
-            <h2 class="card__title">Apollo Broccoli</h2>
+            <h2 class="card__title">Western</h2>
           </div>
 
           <div class="card__details">
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--organic">Organic!</h6>
+              <h6 class="card__detail card__detail--organic">+15</h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail">3 🥦 per 📦</h6>
+              <h6 class="card__detail">🐎 +500k options</h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--price">5.50€</h6>
+              <h6 class="card__detail card__detail--price">$2/Movie</h6>
             </div>
           </div>
 
           <a class="card__link" href="#">
-            <span>Detail <i class="emoji-right">👉</i></span>
+            <span>Let's Watch<i class="emoji-right">👉</i></span>
           </a>
         </figure>
 
         <figure class="card">
-          <div class="card__emoji">🥕🥕</div>
+          <div class="card__emoji">🔞❤️‍🔥</div>
           <div class="card__title-box">
-            <h2 class="card__title">Baby Carrots</h2>
+            <h2 class="card__title">Romance</h2>
           </div>
 
           <div class="card__details">
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--organic">Organic!</h6>
+              <h6 class="card__detail card__detail--organic">+16</h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail">20 🥕 per 📦</h6>
+              <h6 class="card__detail">👩‍❤️‍👨 +10m options</h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--price">3.00€</h6>
+              <h6 class="card__detail card__detail--price">$5/Movie</h6>
             </div>
           </div>
 
           <a class="card__link" href="#">
-            <span>Detail <i class="emoji-right">👉</i></span>
+            <span>Let's Watch<i class="emoji-right">👉</i></span>
           </a>
         </figure>
 
         <figure class="card">
-          <div class="card__emoji">🌽🌽</div>
+          <div class="card__emoji">🚧🕵️</div>
           <div class="card__title-box">
-            <h2 class="card__title">Sweet Corncobs</h2>
+            <h2 class="card__title">Drama</h2>
           </div>
 
           <div class="card__details">
             <div class="card__detail-box">
-              <h6 class="card__detail">2 🌽 per 📦</h6>
+              <h6 class="card__detail card__detail--organic">+12</h6>
+            </div>
+
+          <div class="card__details">
+            <div class="card__detail-box">
+              <h6 class="card__detail">🎎 +2m options </h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--price">2.00€</h6>
+              <h6 class="card__detail card__detail--price">$3.5/Movie</h6>
             </div>
           </div>
 
           <a class="card__link" href="#">
-            <span>Detail <i class="emoji-right">👉</i></span>
+            <span>Let's Watch<i class="emoji-right">👉</i></span>
           </a>
         </figure>
       </div>
