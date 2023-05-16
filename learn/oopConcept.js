@@ -1,4 +1,4 @@
-class Animal {
+export default class Animal {
   constructor(name, age) {
     this.name = name;
     this.age = age;
@@ -9,11 +9,10 @@ class Animal {
   }
 }
 
-
 // const firstAnimal = new Animal('Alex', 2);
 // console.log(firstAnimal);
 // console.log(firstAnimal.getInfo());
 
 // export * from "oopConcept";
 
-export default Animal;
+// export default Animal;

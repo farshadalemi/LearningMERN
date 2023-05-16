@@ -13,7 +13,7 @@ app.get("/", logger, (req, res) => {
   // res.status(500).json({message: "Server error"});
   res.render("index", { text: "I enjoy working with Express" });
 });
-
+ 
 const storeRouter = require("./routes/store");
 const userRouter = require("./routes/users");
 const blogRouter = require("./routes/blog");

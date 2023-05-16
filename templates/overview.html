@@ -13,8 +13,8 @@
       href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png"
     />
 
-    <title>Ticket Foroshi</title>
-
+    <title>Ticket Foroshi - Cinema Reservation Service</title>
+    <!-- <Body background="./img/BGImg2.jpg"> <br>   -->
     <style>
       *,
       *::before,
@@ -25,24 +25,24 @@
       }
 
       html {
-        font-size: 62.5%;
+        font-size: 30%;
         box-sizing: border-box;
       }
 
       body {
-        padding: 5rem 5rem 10rem;
+        padding: 14rem 5rem 10rem;
         line-height: 1.7;
         font-family: "Nunito Sans", sans-serif;
         color: #555;
         min-height: 100vh;
-        background: linear-gradient(to bottom right, #717171, #000000);
+        background: linear-gradient(to bottom right, #ff0000, #000000);
       }
 
       h1 {
         font-family: "Megrim", sans-serif;
-        font-size: 6rem;
+        font-size: 5rem;
         color: white;
-        transform: skewY(-5deg);
+        transform: skewY(0deg);
         text-align: center;
         position: relative;
         word-spacing: 3px;
@@ -57,13 +57,13 @@
         top: 50%;
         left: 50%;
         background: linear-gradient(to bottom, #000000, #4d4d4d);
-        opacity: 0.3;
+        opacity: 0.0;
         z-index: -1;
         transform: skewY(360deg) translate(-50%, -50%);
       }
       h2 {
         font-family: "Megrim", sans-serif;
-        font-size: 3rem;
+        font-size: 2.5rem;
         color: white;
         transform: skewY(0deg);
         text-align: center;
@@ -86,18 +86,19 @@
       }
 
       .container {
-        width: 95rem;
+        width: 130rem;
         margin: 0 auto;
       }
 
       .cards-container {
-        margin-top: 8rem;
+        margin-top: 5rem;
       }
 
       .card {
         background: white;
         box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
-        margin-bottom: 5rem;
+        border-radius: 50px;
+        margin-bottom: 3rem;
         transform: skewX(-20deg);
         display: flex;
         transition: all 0.5s;
@@ -122,7 +123,7 @@
       .card__title {
         font-family: "Megrim", sans-serif;
         color: white;
-        font-size: 3.25rem;
+        font-size: 2.25rem;
         transform: skewX(20deg);
       }
 
@@ -148,7 +149,61 @@
         padding: 1.75rem;
       }
 
-      .card__detail--organic {
+      .card__detail--mainTitle {
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 3.9rem;
+        background-image: linear-gradient(to right, #ffffff, #ffffff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        /* color: transparent; */
+      }
+      .card__detail--mainTitleAction {
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 3.9rem;
+        background-image: linear-gradient(to right, #ff0000, #006eff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .card__detail--mainTitleHorror {
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 3.9rem;
+        background-image: linear-gradient(to right, #ff0000, #ff1e00,#ffcc00);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .card__detail--mainTitleWestern {
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 3.9rem;
+        background-image: linear-gradient(to right, #985900, #e9b90a);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .card__detail--mainTitleRomance {
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 3.9rem;
+        background-image: linear-gradient(to right, #0fc218, #058516);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .card__detail--mainTitleDrama {
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 3.9rem;
+        background-image: linear-gradient(to right, #0044ff, #00ffe1);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .card__detail--rangeTitle {
         font-weight: 900;
         text-transform: uppercase;
         font-size: 3.9rem;
@@ -168,12 +223,14 @@
       .card__link:visited {
         flex: 0 0 auto;
         background-color: #656565;
+        border-radius: 50px;
+        /* border-radius: 5px 5px 0 0; */
         color: rgb(37, 37, 37);
         font-size: 1.6rem;
         font-weight: 900;
         text-transform: uppercase;
         text-decoration: none;
-        padding: 2.5rem;
+        padding: 2rem;
         text-align: center;
         display: flex;
         align-items: center;
@@ -229,20 +286,21 @@
 
           <div class="card__details">
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--organic">+12</h6>
+              <h6 class="card__detail card__detail--mainTitleAction">Fast and Furious</h6>
+              <h6 class="card__detail card__detail--rangeTitle">+12</h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail">🧨 +3m options</h6>
+              <h6 class="card__detail">🕒 +2h</h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--price">$6/Movie</h6>
+              <h6 class="card__detail card__detail--price">$6</h6>
             </div>
           </div>
 
           <a class="card__link" href="#">
-            <span>Let's Watch<i class="emoji-right">👉</i></span>
+            <span>Let's Watch<i class="emoji-right">👁️</i></span>
           </a>
         </figure>
 
@@ -254,21 +312,22 @@
 
           <div class="card__details">
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--organic">+21</h6>
+              <h6 class="card__detail card__detail--mainTitleHorror">BLOOD AND HONEY</h6>
+              <h6 class="card__detail card__detail--rangeTitle">+21</h6>
             </div>
 
           <div class="card__details">
             <div class="card__detail-box">
-              <h6 class="card__detail">🧛 +250k options</h6>
+              <h6 class="card__detail">🕒 +2h</h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--price">$7/Movie</h6>
+              <h6 class="card__detail card__detail--price">$7</h6>
             </div>
           </div>
 
           <a class="card__link" href="#">
-            <span>Let's Watch<i class="emoji-right">👉</i></span>
+            <span>Let's Watch<i class="emoji-right">👁️</i></span>
           </a>
         </figure>
 
@@ -280,20 +339,21 @@
 
           <div class="card__details">
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--organic">+15</h6>
+              <h6 class="card__detail card__detail--mainTitleWestern">No Man's Land</h6>
+              <h6 class="card__detail card__detail--rangeTitle">+15</h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail">🐎 +500k options</h6>
+              <h6 class="card__detail">🕒 +1h</h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--price">$2/Movie</h6>
+              <h6 class="card__detail card__detail--price">$2</h6>
             </div>
           </div>
 
           <a class="card__link" href="#">
-            <span>Let's Watch<i class="emoji-right">👉</i></span>
+            <span>Let's Watch<i class="emoji-right">👁️</i></span>
           </a>
         </figure>
 
@@ -305,20 +365,21 @@
 
           <div class="card__details">
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--organic">+16</h6>
+              <h6 class="card__detail card__detail--mainTitleRomance">Notebook</h6>
+              <h6 class="card__detail card__detail--rangeTitle">+16</h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail">👩‍❤️‍👨 +10m options</h6>
+              <h6 class="card__detail">🕒 +3h</h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--price">$5/Movie</h6>
+              <h6 class="card__detail card__detail--price">$5</h6>
             </div>
           </div>
 
           <a class="card__link" href="#">
-            <span>Let's Watch<i class="emoji-right">👉</i></span>
+            <span>Let's Watch<i class="emoji-right">👁️</i></span>
           </a>
         </figure>
 
@@ -330,21 +391,22 @@
 
           <div class="card__details">
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--organic">+12</h6>
+              <h6 class="card__detail card__detail--mainTitleDrama">The Courier</h6>
+              <h6 class="card__detail card__detail--rangeTitle">+12</h6>
             </div>
 
           <div class="card__details">
             <div class="card__detail-box">
-              <h6 class="card__detail">🎎 +2m options </h6>
+              <h6 class="card__detail">🕒 +2h </h6>
             </div>
 
             <div class="card__detail-box">
-              <h6 class="card__detail card__detail--price">$3.5/Movie</h6>
+              <h6 class="card__detail card__detail--price">$3.5</h6>
             </div>
           </div>
 
           <a class="card__link" href="#">
-            <span>Let's Watch<i class="emoji-right">👉</i></span>
+            <span>Let's Watch<i class="emoji-right">👁️</i></span>
           </a>
         </figure>
       </div>
