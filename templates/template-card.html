@@ -1,0 +1,31 @@
+<figure class="card">
+  <div class="card__emoji">{%MOVIEEMOJI%}</div>
+
+  <div class="card__title-box">
+    <h2 class="card__title">{%MOVIEGENRE%}</h2>
+  </div>
+
+  <div class="card__details">
+    <div class="card__detail-box">
+      <h6 class="card__detail card__detail--mainTitleAction">{%MOVIENAME%}</h6>
+    </div>
+
+    <div class="card__detail-box {%NOT_DISCOUNT%}">
+      <h6 class="card__detail card__detail--rangeTitle">
+        {%DISCOUNT%}% Discount
+      </h6>
+    </div>
+
+    <div class="card__detail-box">
+      <h6 class="card__detail card__detail--price">${%MOVIEPRICE%}</h6>
+    </div>
+
+    <div class="card__detail-box">
+      <h6 class="card__detail">🕒 {%MOVIELENGTH%}</h6>
+    </div>
+  </div>
+
+  <a class="card__link" href="/movie?id={%ID%}">
+    <span>Let's Watch<i class="emoji-right">👁️</i></span>
+  </a>
+</figure>

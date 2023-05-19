@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "movieName": "The Courier",
+    "movieGenre": "Drama",
+    "image": "🕵️",
+    "movieLength": "2h",
+    "moviePrice": "$6",
+    "movieDiscount": false,
+    "discountPercent": 0,
+    "movieDescription": "The true story of a British businessman unwittingly recruited into one of the greatest international conflicts in history. Forming an unlikely partnership with a Soviet officer hoping to prevent a nuclear confrontation, the two men work together to provide the crucial intelligence used to defuse the Cuban Missile Crisis."
+  },
+  {
+    "id": 2,
+    "movieName": "The Father",
+    "movieGenre": "Drama",
+    "image": "👴",
+    "movieLength": "1h 37m",
+    "moviePrice": "$8",
+    "movieDiscount": true,
+    "discountPercent": 50,
+    "movieDescription": "A man refuses all assistance from his daughter as he ages. As he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind and even the fabric of his reality."
+  },
+  {
+    "id": 3,
+    "movieName": "Inception",
+    "movieGenre": "Science Fiction",
+    "image": "🌀",
+    "movieLength": "2h 28m",
+    "moviePrice": "$10",
+    "movieDiscount": false,
+    "discountPercent": 0,
+    "movieDescription": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."
+  },
+  {
+    "id": 4,
+    "movieName": "The Shawshank Redemption",
+    "movieGenre": "Drama",
+    "image": "🚪",
+    "movieLength": "2h 22m",
+    "moviePrice": "$12",
+    "movieDiscount": true,
+    "discountPercent": 30,
+    "movieDescription": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+  },
+  {
+    "id": 5,
+    "movieName": "The Dark Knight",
+    "movieGenre": "Action",
+    "image": "🦇",
+    "movieLength": "2h 32m",
+    "moviePrice": "$9",
+    "movieDiscount": false,
+    "discountPercent": 0,
+    "movieDescription": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+  },
+  {
+    "id": 6,
+    "movieName": "The Godfather",
+    "movieGenre": "Crime",
+    "image": "🍝",
+    "movieLength": "2h 58m",
+    "moviePrice": "$11",
+    "movieDiscount": true,
+    "discountPercent": 50,
+    "movieDescription": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+  },
+  {
+    "id": 7,
+    "movieName": "Forrest Gump",
+    "movieGenre": "Drama",
+    "image": "🏃‍♂️",
+    "movieLength": "2h 22m",
+    "moviePrice": "$7",
+    "movieDiscount": false,
+    "discountPercent": 0,
+    "movieDescription": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate and other historical events unfold through the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart."
+  },
+  {
+    "id": 8,
+    "movieName": "In the Heights",
+    "movieGenre": "Musical",
+    "image": "🎵",
+    "movieLength": "2h 23m",
+    "moviePrice": "$8",
+    "movieDiscount": false,
+    "discountPercent": 0,
+    "movieDescription": "A film version of the Broadway musical in which Usnavi, a sympathetic New York bodega owner, saves every penny every day as he imagines and sings about a better life."
+  },
+  {
+    "id": 9,
+    "movieName": "Jurassic Park",
+    "movieGenre": "Science Fiction",
+    "image": "🦕",
+    "movieLength": "2h 7m",
+    "moviePrice": "$10",
+    "movieDiscount": true,
+    "discountPercent": 10,
+    "movieDescription": "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok."
+  },
+  {
+    "id": 10,
+    "movieName": "The Matrix",
+    "movieGenre": "Science Fiction",
+    "image": "🕶️",
+    "movieLength": "2h 16m",
+    "moviePrice": "$9",
+    "movieDiscount": false,
+    "discountPercent": 0,
+    "movieDescription": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+  },
+  {
+    "id": 11,
+    "movieName": "The Social Network",
+    "movieGenre": "Drama",
+    "image": "👥",
+    "movieLength": "2h",
+    "moviePrice": "$7",
+    "movieDiscount": true,
+    "discountPercent": 20,
+    "movieDescription": "Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea, and the co-founder who was later squeezed out of the business."
+  },
+  {
+    "id": 12,
+    "movieName": "The Silence of the Lambs",
+    "movieGenre": "Thriller",
+    "image": "🔪",
+    "movieLength": "1h 58m",
+    "moviePrice": "$8",
+    "movieDiscount": false,
+    "discountPercent": 0,
+    "movieDescription": "A young F.B.I. cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer who skins his victims."
+  },
+  {
+    "id": 13,
+    "movieName": "La La Land",
+    "movieGenre": "Musical",
+    "image": "🎭",
+    "movieLength": "2h 8m",
+    "moviePrice": "$7",
+    "movieDiscount": true,
+    "discountPercent": 0,
+    "movieDescription": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future."
+  }
+]

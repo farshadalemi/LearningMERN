@@ -13,7 +13,7 @@
       href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png"
     />
 
-    <title>Ticket Foroshi - Movie</title>
+    <title>Ticket Foroshi - {%MOVIEEMOJI%} - {%MOVIENAME%}</title>
     <!-- <Body background="./img/BGImg.jpg"> <br>   -->
 
     <style>
@@ -26,41 +26,41 @@
       }
 
       html {
-        font-size: 62.5%;
+        font-size: 40%;
         box-sizing: border-box;
       }
 
       body {
         padding: 5rem 5rem 10rem;
         line-height: 1.7;
-        font-family: 'Nunito Sans', sans-serif;
+        font-family: "Nunito Sans", sans-serif;
         color: #555;
         min-height: 100vh;
         background: linear-gradient(to bottom right, #ff0000, #000000);
       }
 
       h1 {
-        font-family: 'Megrim', sans-serif;
-        font-size: 6rem;
+        font-family: "Megrim", sans-serif;
+        font-size: 5rem;
         color: white;
-        transform: skewY(-5deg);
+        transform: skewY(0deg);
         text-align: center;
         position: relative;
         word-spacing: 3px;
       }
 
       h1::before {
-        content: '';
+        content: "";
         display: block;
         height: 65%;
-        width: 49%;
+        width: 50%;
         position: absolute;
-        top: 105%;
+        top: 50%;
         left: 50%;
-        background: linear-gradient(to bottom, #9be15d, #00e3ae);
-        opacity: 0.8;
+        background: linear-gradient(to bottom, #000000, #4d4d4d);
+        opacity: 0;
         z-index: -1;
-        transform: skewY(370deg) translate(-50%, -50%);
+        transform: skewY(360deg) translate(-50%, -50%);
       }
 
       .container {
@@ -84,14 +84,14 @@
       }
 
       .product__hero::before {
-        content: '';
+        content: "";
         display: block;
         height: 100%;
         width: 100%;
         position: absolute;
         top: 0;
         left: 0;
-        background-image: linear-gradient(to left bottom, #9be15d, #00e3ae);
+        background-image: linear-gradient(to left bottom, #000000, #000000);
         opacity: 0.5;
         z-index: 100;
       }
@@ -148,14 +148,14 @@
         left: 19rem;
       }
 
-      .product__organic {
+      .product__discount {
         position: absolute;
         top: -4rem;
         right: -4rem;
         z-index: 1000;
         height: 11rem;
         width: 11rem;
-        background-image: linear-gradient(to bottom, #9be15d, #00e3ae);
+        background-image: linear-gradient(to bottom, #000000, #4c4c4c);
         border-radius: 50%;
         transform: rotate(15deg);
         box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.4);
@@ -181,7 +181,7 @@
         text-transform: uppercase;
         text-decoration: none;
         z-index: 1000;
-        color: #555;
+        color: #ff0000;
         background-color: white;
         box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
         border-radius: 100rem;
@@ -193,13 +193,14 @@
 
       .product__back:hover,
       .product__back:active {
-        background-color: #79e17b;
+        background-color: #6d0000;
+        transform: scale(1.2) skewX(0deg);
       }
 
       .product__name {
-        background: linear-gradient(to bottom, #9be15d, #00e3ae);
+        background: linear-gradient(to bottom, #ff0000, #000000);
         padding: 1rem;
-        font-family: 'Megrim', sans-serif;
+        font-family: "Megrim", sans-serif;
         font-size: 4rem;
         color: white;
         text-align: center;
@@ -224,15 +225,16 @@
       .product__link:link,
       .product__link:visited {
         display: block;
-        background-color: #79e17b;
+        border-radius: 50px;
+        background-color: #9c0000;
         color: white;
         font-size: 1.6rem;
         font-weight: 700;
         text-transform: uppercase;
         text-decoration: none;
-        padding: 1.5rem;
+        padding: 2.5rem;
         text-align: center;
-        transform: scale(1.07) skewX(-20deg);
+        transform: scale(1.3) skewX(-20deg);
         box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.2);
         display: flex;
         align-items: center;
@@ -242,8 +244,8 @@
 
       .product__link:hover,
       .product__link:active {
-        background-color: #9be15d;
-        transform: scale(1.1) skewX(-20deg);
+        background-color: #530000;
+        transform: scale(1.4) skewX(-20deg);
       }
 
       .product__link span {
@@ -260,58 +262,77 @@
         margin-left: 1rem;
       }
 
-      .not-organic {
+      .not-discount {
         display: none;
+      }
+
+      .videobcg {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 5em 2em 4em 2em;
+        z-index: -1000;
+        overflow: hidden;
       }
     </style>
   </head>
 
   <body>
     <div class="container">
-      <h1>🌽 Node Farm 🥦</h1>
+      <h1>🎫 Ticket Froshi 🎟️</h1>
 
       <figure class="product">
-        <div class="product__organic"><h5>Organic</h5></div>
-        <a href="#" class="product__back">
-          <span class="emoji-left">👈</span>Back
+        <div class="product__discount {%NOT_DISCOUNT%}"><h5>DISCOUNT</h5></div>
+        <a href="overview.html" class="product__back">
+          <span class="emoji-left">👈</span>
         </a>
         <div class="product__hero">
-          <span class="product__emoji product__emoji--1">🥑</span>
-          <span class="product__emoji product__emoji--2">🥑</span>
-          <span class="product__emoji product__emoji--3">🥑</span>
-          <span class="product__emoji product__emoji--4">🥑</span>
-          <span class="product__emoji product__emoji--5">🥑</span>
-          <span class="product__emoji product__emoji--6">🥑</span>
-          <span class="product__emoji product__emoji--7">🥑</span>
-          <span class="product__emoji product__emoji--8">🥑</span>
-          <span class="product__emoji product__emoji--9">🥑</span>
+          <span class="product__emoji product__emoji--1">{%MOVIEEMOJI%}</span>
+          <span class="product__emoji product__emoji--2">{%MOVIEEMOJI%}</span>
+          <span class="product__emoji product__emoji--3">{%MOVIEEMOJI%}</span>
+          <span class="product__emoji product__emoji--4">{%MOVIEEMOJI%}</span>
+          <span class="product__emoji product__emoji--5">{%MOVIEEMOJI%}</span>
+          <span class="product__emoji product__emoji--6">{%MOVIEEMOJI%}</span>
+          <span class="product__emoji product__emoji--7">{%MOVIEEMOJI%}</span>
+          <span class="product__emoji product__emoji--8">{%MOVIEEMOJI%}</span>
+          <span class="product__emoji product__emoji--9">{%MOVIEEMOJI%}</span>
         </div>
-        <h2 class="product__name">Fresh Avocados</h2>
+        <h2 class="product__name">{%MOVIENAME%}</h2>
+        <section id="banner">
+          <video
+            id="videobcg"
+            preload="auto"
+            autoplay="true"
+            loop="loop"
+            muted="muted"
+            volume="0"
+          >
+            <source
+              src="https://static.lumosity.com/resources/home_page_templates/574/neuralnetwork.mp4"
+              type="video/mp4"
+            />
+            <source src="movie.webm" type="video/webm" />
+            Sorry, your browser does not support HTML5 video.
+          </video>
+          <p>
+            This is text that is in front of video, we do not want the z-index
+            of video to be greater than content. Hence background!
+          </p>
+        </section>
         <div class="product__details">
-          <p><span class="emoji-left">🌍</span> From Portugal</p>
-          <p><span class="emoji-left">❤️</span> Vitamin B, Vitamin K</p>
-          <p><span class="emoji-left">📦</span> 4 🥑</p>
-          <p><span class="emoji-left">🏷</span> 6.50€</p>
+          <p><span class="emoji-left">📺</span>{%MOVIENAME%}</p>
+          <p><span class="emoji-left">🎥</span> {%MOVIEGENRE%}</p>
+          <p><span class="emoji-left">🕒</span>{%MOVIELENGTH%}</p>
+          <p><span class="emoji-left">🏷</span>{%MOVIEPRICE%}$</p>
         </div>
-  
+
         <a href="#" class="product__link">
           <span class="emoji-left">🛒</span>
-          <span>Add to shopping card (6.50€)</span>
+          <span>Add to card ({%MOVIEPRICE%}$)</span>
         </a>
-  
-        <p class="product__description">
-          A ripe avocado yields to gentle pressure when held in the palm of the
-          hand and squeezed. The fruit is not sweet, but distinctly and subtly
-          flavored, with smooth texture. The avocado is popular in vegetarian
-          cuisine as a substitute for meats in sandwiches and salads because of
-          its high fat content. Generally, avocado is served raw, though some
-          cultivars, including the common 'Hass', can be cooked for a short time
-          without becoming bitter. It is used as the base for the Mexican dip
-          known as guacamole, as well as a spread on corn tortillas or toast,
-          served with spices.
-        </p>
+
+        <p class="product__description">{%MOVIEDESCRIPTION%}</p>
       </figure>
-      
     </div>
   </body>
 </html>
