@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style></style>
+    <script></script>
+  </head>
+  <body>
+    <button
+      onclick="
+        console.log(`Card quantity: ${cardQuantity}`);
+        "
+    >
+      Show quantity
+    </button>
+    <button
+      onclick="
+    cardQuantity += 1
+    console.log(`Card quantity: ${cardQuantity}`);
+    "
+    >
+      Add to Card
+    </button>
+    <button
+      onclick="
+    cardQuantity += 1
+    console.log(`Card quantity: ${cardQuantity}`);
+    "
+    >
+      +1
+    </button>
+    <button
+      onclick="
+    cardQuantity -= 1
+    console.log(`Card quantity: ${cardQuantity}`);
+    "
+    >
+      -1
+    </button>
+    <button
+      onclick="
+    cardQuantity = 0
+    console.log('Card was reset.');
+    console.log(`Card quantity: ${cardQuantity}`);
+    "
+    >
+      Reset Card
+    </button>
+
+    <script>
+      let cardQuantity = 0;
+    </script>
+  </body>
+</html>
